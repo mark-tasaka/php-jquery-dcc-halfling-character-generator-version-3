@@ -5,6 +5,12 @@ Designed with PHP and jQuery, the Dungeon Crawl Classics Halfling Character Gene
 ----------------------
 
 
+
+Update 1.01: 2020-12-29
+
+Updates to dccHalfling.php, halfling.css, languages.js, armour.php, gear.php, randomName.php and weapons.php.  New character sheet (halfling.png) added.
+
+
 Initial Commit: 2020-12-28
 
 The initial commit of the Dungeon Crawl Classics Halfling Character Generator Version 3.
