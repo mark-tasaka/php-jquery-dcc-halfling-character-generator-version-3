@@ -36,7 +36,7 @@ function getSurname()
         
     $numberNames = count($surnames);
     
-    $randomName = rand (0, ($numberNames) );
+    $randomName = rand (0, ($numberNames -1) );
     
     return $surnames[$randomName];
 }
@@ -98,7 +98,7 @@ function getCharacterName ($sex)
         
         $numberNames = count($femaleNames);
         
-        $randomName = rand (0, ($numberNames) );
+        $randomName = rand (0, ($numberNames-1) );
         
         return $femaleNames[$randomName];
         
@@ -133,7 +133,7 @@ function getCharacterName ($sex)
         
         $numberNames = count($maleNames);
         
-        $randomName = rand (0, ($numberNames) );
+        $randomName = rand (0, ($numberNames-1) );
         
         return $maleNames[$randomName];
     }

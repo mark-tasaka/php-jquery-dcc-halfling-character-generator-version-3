@@ -188,20 +188,18 @@ body{
 
 #trainedWeapon{
     position:absolute;
-    top: 1085px;
-    left: 450px;
+    top: 495px;
+    left: 360px;
 	font-size: 0.6em;
 }
 
 
 #tradeGoods{
     position:absolute;
-    top: 1105px;
-    left: 450px;
+    top: 515px;
+    left: 360px;
 	font-size: 0.6em;
 }
-
-
 
 #level{
     position:absolute;
@@ -324,7 +322,8 @@ body{
     position:absolute;
     top: 135px;
     left: 380px;
-	font-size: 0.85em;
+    font-size: 0.85em;
+    width: 200px;
 }
 
 #xpNextLevel{
@@ -414,10 +413,11 @@ body{
 
 #initiative{
     position:absolute;
-    top: 370px;
-    left: 360px;
+    top: 360px;
+    left: 365px;
     font-size: 0.9em;
 }
+
 
 #actionDice{
     position:absolute;
@@ -443,25 +443,25 @@ body{
 
 #languages{
     position:absolute;
-    top: 428px;
+    top: 410px;
     left: 360px;
     font-size: 0.8em;
-    width: 310px;
+    width: 320px;
 }
 
 
 #melee{
     position:absolute;
-    top: 503px;
-    left: 573px;
+    top: 575px;
+    left: 550px;
 	font-size: 1em;
 }
 
 
 #range{
     position:absolute;
-    top: 546px;
-    left: 573px;
+    top: 615px;
+    left: 550px;
 	font-size: 1em;
 }
 
@@ -469,22 +469,18 @@ body{
 
 #meleeDamage{
     position:absolute;
-    top: 503px;
-    left: 620px;
+    top: 575px;
+    left: 590px;
 	font-size: 1em;
 }
 
 
 #rangeDamage{
     position:absolute;
-    top: 546px;
-    left: 620px;
+    top: 615px;
+    left: 590px;
 	font-size: 1em;
 }
-
-
-
-
 
 
 #dieRollMethod{
@@ -492,4 +488,19 @@ body{
     top: 100px;
     left:  50px;
 	font-size: 0.5em;
+}
+
+#sneakHide{
+    position:absolute;
+    top: 357px;
+    left: 485px;
+    font-size: 0.9em;
+}
+
+
+#attackBonus{
+    position:absolute;
+    top: 360px;
+    left: 617px;
+    font-size: 0.9em;
 }

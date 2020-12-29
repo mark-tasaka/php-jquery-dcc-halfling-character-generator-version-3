@@ -1,5 +1,5 @@
 <?php
-
+/* Halfling */
 
     function getWeapon($input)
     {
@@ -33,6 +33,30 @@
         return $array1[$input];
         
     }
+
+
+    
+function getRandomWeapons()
+{
+   
+    $weaponsArray = array(3, 4, 5, 9, 10, 16, 17, 18, 20);
+
+    //shuffle $weaponsArray
+    shuffle($weaponsArray); 
+
+    $numberOfWeapons = rand (3, 6);
+
+    $weaponsHas = array();
+
+    for($j = 0; $j < $numberOfWeapons; ++$j)
+    {
+        $weapon = $weaponsArray[$j];
+        array_push($weaponsHas, $weapon);
+    }
+
+    return $weaponsHas;
+}
+
 
 
 

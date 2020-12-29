@@ -1,5 +1,7 @@
 <?php
 
+/*Halfling */
+
 
 function getGear($input)
 {
@@ -39,5 +41,26 @@ function getGear($input)
         return $arr[$input];
 }
 
+
+
+function getRandomGear()
+{
+        $gearArray = array(0, 7, 17, 23);
+
+        $numberOfGear = rand(6, 16);
+
+        $addToArray = array(1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22);
+
+        shuffle($addToArray);
+
+        for($j = 0; $j <= $numberOfGear; ++$j)
+        {
+                $gear = $addToArray[$j];
+                array_push($gearArray, $gear);
+        }
+
+        return $gearArray;
+
+}
 
 ?>
