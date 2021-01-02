@@ -4,6 +4,22 @@ Designed with PHP and jQuery, the Dungeon Crawl Classics Halfling Character Gene
 
 ----------------------
 
+Live versions of the Dungeon Crawl Classics (DCC) Dwarf Character Generator Version 3 are found at:
+
+Dwarves, Warriors and Mighty Deeds: A Dungeon Crawl Classics Fan Site:
+
+https://www.oldschooladventures.org/dcc/halfling/
+
+Fantastic Adventures and the Disgruntled Gong Farmer: A DCC Adventure Module:
+
+https://www.tasaka-games.com/dcc/more/classes/halfling/
+
+-------------------------------
+
+
+Update 1.02: 2021-01-01
+
+The launch page for the DCC Halfling Character Generator Version 3 has been added.
 
 
 Update 1.01: 2020-12-29
